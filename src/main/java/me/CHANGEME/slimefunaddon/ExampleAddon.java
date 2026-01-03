@@ -1,4 +1,4 @@
-package me.CHANGEME.slimefunaddon;
+package me.ginhubofwangliming.slimefun_miscellaneous_machinery;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -13,7 +13,7 @@ import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 
-public class ExampleAddon extends JavaPlugin implements SlimefunAddon {
+public class ExampleAddon extends JavaPlugin implements Slimefun-Miscellaneous-Machinery {
 
     @Override
     public void onEnable() {
@@ -39,7 +39,7 @@ public class ExampleAddon extends JavaPlugin implements SlimefunAddon {
          * 这个类是 ItemStack 的扩展，拥有多个构造函数
          * 重要：每个物品都得有一个独一无二的ID
          */
-        SlimefunItemStack slimefunItem = new SlimefunItemStack("COOL_DIAMOND", Material.DIAMOND, "&4炫酷的钻石", "&c+20% 炫酷");
+        //SlimefunItemStack slimefunItem = new SlimefunItemStack("COOL_DIAMOND", Material.DIAMOND, "&4炫酷的钻石", "&c+20% 炫酷");
 
         /*
          * 3. 创建配方
