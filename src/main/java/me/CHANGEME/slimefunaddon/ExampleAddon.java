@@ -1,4 +1,4 @@
-package me.ginhubofwangliming.slimefun_miscellaneous_machinery;
+package me.ginhubofwangliming.miscellaneous_machinery;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
